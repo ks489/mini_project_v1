@@ -1,0 +1,3 @@
+include 'org.xtext.miniproject.blogpostdsl'
+include 'org.xtext.miniproject.blogpostdsl.ide'
+include 'org.xtext.miniproject.blogpostdsl.web'

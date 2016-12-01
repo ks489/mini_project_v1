@@ -1,0 +1,9 @@
+grammar org.xtext.BlogPostDSL with org.eclipse.xtext.common.Terminals
+
+generate blogPostDSL "http://www.xtext.org/BlogPostDSL"
+
+Model:
+	greetings+=Greeting*;
+	
+Greeting:
+	'Hello' name=ID '!';
